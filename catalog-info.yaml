@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-grpc3"
+  description: "Test GRPC3"
+  annotations:
+    github.com/project-slug: "talend/test-grpc3-backstage"
+    backstage.io/techdocs-ref: github:https://github.com/talend/test-grpc3-backstage
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "user:asaintsever"
